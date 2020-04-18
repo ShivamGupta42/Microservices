@@ -1,0 +1,16 @@
+package com.shivam.microservices.limitsservices.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.shivam.microservices.limitsservices.util.LimitsConfiguration;
+
+@RestController
+public class ConfigurationController {
+
+	@GetMapping("/limits")
+	public LimitsConfiguration getLimitsFromConfiguration() {
+       
+	}
+
+}

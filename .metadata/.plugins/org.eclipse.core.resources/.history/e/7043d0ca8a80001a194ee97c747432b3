@@ -1,0 +1,5 @@
+package com.shivam.microservices.currencyexchangeservice.dto;
+
+public class ExchangeValue {
+
+}

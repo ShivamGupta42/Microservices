@@ -1,0 +1,5 @@
+package com.shivam.microservices.limitsservices.controller;
+
+public class ConfigurationController {
+
+}

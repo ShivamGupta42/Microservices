@@ -1,0 +1,13 @@
+package com.shivam.microservices.netflixeurekanamingsever;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class NetflixEurekaNamingSeverApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(NetflixEurekaNamingSeverApplication.class, args);
+	}
+
+}

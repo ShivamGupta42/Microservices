@@ -1,0 +1,6 @@
+package com.shivam.microservices.limitsservices.util;
+
+public class LimitsConfiguration {
+     int maximum;
+     int minimum;
+}

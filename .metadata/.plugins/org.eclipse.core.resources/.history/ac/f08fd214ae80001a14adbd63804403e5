@@ -1,0 +1,12 @@
+package com.shivam.microservices.currencyconversionservice.dto;
+
+import java.math.BigDecimal;
+
+public class CurrencyConversionBean {
+	Long id;
+    String from;
+    String to;
+    BigDecimal conversionMultiple;
+    BigDecimal quantity;
+    BigDecimal calculatedValue;
+}

@@ -1,0 +1,14 @@
+package com.shivam.microservices.currencyconversionservice.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CurrencyConvertorController {
+	
+
+	@GetMapping("/currency-convertor/from/{from}/to/{to}/quantity/{value}")
+	public void getConvertedCurrency() {
+		
+	}
+}

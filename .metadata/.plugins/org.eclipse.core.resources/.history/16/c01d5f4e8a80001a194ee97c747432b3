@@ -1,0 +1,5 @@
+package com.shivam.microservices.currencyexchangeservice.controller;
+
+public class CurrencyExchangeController {
+
+}

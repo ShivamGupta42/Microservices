@@ -1,0 +1,7 @@
+package com.shivam.microservices.currencyconversionservice.externalMicroservices;
+
+
+
+public interface CurrencyExchangeServiceProxy {
+
+}
