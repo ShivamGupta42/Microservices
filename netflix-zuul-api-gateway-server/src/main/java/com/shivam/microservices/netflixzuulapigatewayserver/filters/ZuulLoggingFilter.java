@@ -38,3 +38,4 @@ public class ZuulLoggingFilter extends ZuulFilter {
 	}
 
 }
+

@@ -9,8 +9,8 @@ import com.shivam.microservices.currencyconversionservice.dto.CurrencyConversion
 
 
 //@FeignClient(name = "currency-exchange-service", url = "localhost:8000") <-Before Ribbon
-//@FeignClient(name = "currency-exchange-service") - After Ribbon
-@FeignClient(name = "netflix-zuul-api-gateway-server")
+//@FeignClient(name = "currency-exchange-service") <- After Ribbon
+@FeignClient(name = "netflix-zuul-api-gateway-server") // <-After Zuul 
 @RibbonClient(name = "currency-exchange-service")
 public interface CurrencyExchangeServiceProxy {
 
@@ -18,3 +18,5 @@ public interface CurrencyExchangeServiceProxy {
 	@GetMapping("/currency-exchange-service/currency-exchange/from/{from}/to/{to}")
 	public CurrencyConversionBean getExchangeRate(@PathVariable String from, @PathVariable String to);
 }
+
+
