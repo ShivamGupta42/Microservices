@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Microservices\netflix-zuul-api-gateway-server"/>
 			<item value="C:\Microservices\netflix-eureka-naming-sever"/>
 			<item value="C:\Microservices\currency-conversion-service"/>
 			<item value="C:\Microservices\currency-exchange-service"/>

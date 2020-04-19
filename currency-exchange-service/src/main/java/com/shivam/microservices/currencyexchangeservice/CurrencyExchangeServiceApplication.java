@@ -7,6 +7,9 @@ import org.springframework.context.annotation.Bean;
 
 import brave.sampler.Sampler;
 
+
+
+
 @SpringBootApplication
 @EnableDiscoveryClient
 public class CurrencyExchangeServiceApplication {
