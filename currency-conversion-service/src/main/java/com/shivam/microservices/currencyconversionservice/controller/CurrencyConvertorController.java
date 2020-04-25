@@ -21,6 +21,8 @@ public class CurrencyConvertorController {
 	
 	private Logger logger = LoggerFactory.getLogger(CurrencyConvertorController.class);
 
+	
+	
 	@Autowired
 	private CurrencyExchangeServiceProxy proxy;
 
@@ -42,6 +44,9 @@ public class CurrencyConvertorController {
 				response.getConversionMultiple(), quantity, quantity.multiply(response.getConversionMultiple()));
 
 	}
+	
+	
+	
 
 	@GetMapping("/currency-convertor2/from/{from}/to/{to}/quantity/{quantity}")
 	public CurrencyConversionBean getConvertedCurrencyFeign(@PathVariable String from, @PathVariable String to,

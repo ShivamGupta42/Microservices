@@ -9,7 +9,7 @@ import com.shivam.microservices.currencyconversionservice.dto.CurrencyConversion
 
 
 //@FeignClient(name = "currency-exchange-service", url = "localhost:8000") <-Before Ribbon
-//@FeignClient(name = "currency-exchange-service") <- After Ribbon
+//@FeignClient(name = "currency-exchange-service") <- After Ribbon and Eureka
 @FeignClient(name = "netflix-zuul-api-gateway-server") // <-After Zuul 
 @RibbonClient(name = "currency-exchange-service")
 public interface CurrencyExchangeServiceProxy {
